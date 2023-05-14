@@ -96,7 +96,6 @@ public class Trie {
      * @param s string to insert into the Trie
      */
     void insert(String s) {
-        // TODO
         // we do a search but if it does not exist we just add the rest in
         int length = s.length();
         TrieNode currentNode = root;
@@ -125,7 +124,6 @@ public class Trie {
      * @return whether string s is inside the Trie
      */
     boolean contains(String s) {
-        // TODO
         int length = s.length();
         // we always start from the root
         TrieNode currentNode = root;
@@ -217,7 +215,6 @@ public class Trie {
      * @param limit   max number of strings to add into results
      */
     void prefixSearch(String s, ArrayList<String> results, int limit) {
-        // TODO
         TrieNode node = root;
         StringBuilder str = new StringBuilder();
         

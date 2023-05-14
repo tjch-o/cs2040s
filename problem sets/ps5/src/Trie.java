@@ -89,7 +89,6 @@ public class Trie {
         this.root = new TrieNode();
     }
 
-
     /**
      * Inserts string s into the Trie.
      *
@@ -247,7 +246,6 @@ public class Trie {
         prefixSearch(s, results, limit);
         return results.toArray(new String[0]);
     }
-
 
     public static void main(String[] args) {
         Trie t = new Trie();
